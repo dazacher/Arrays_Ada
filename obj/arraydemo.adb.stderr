@@ -1,0 +1,1 @@
+arraydemo.adb:18:37: warning: "My_Pinochle_Deck" may be referenced before it has a value [enabled by default]

@@ -245,9 +245,9 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   C:\Users\User\Ada\Arrays_Ada\obj\arraydemo.o
-   --   -LC:\Users\User\Ada\Arrays_Ada\obj\
-   --   -LC:\Users\User\Ada\Arrays_Ada\obj\
+   --   E:\Users\User\Ada\Arrays_Ada\obj\arraydemo.o
+   --   -LE:\Users\User\Ada\Arrays_Ada\obj\
+   --   -LE:\Users\User\Ada\Arrays_Ada\obj\
    --   -LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
    --   -static
    --   -lgnat

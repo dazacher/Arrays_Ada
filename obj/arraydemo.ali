@@ -12,7 +12,7 @@ RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_IMPLICIT_LOOPS
 
-U arraydemo%b		arraydemo.adb		49c23450 NE OO SU
+U arraydemo%b		arraydemo.adb		c7a2139a NE OO SU
 W ada%s			ada.ads			ada.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
@@ -29,7 +29,7 @@ D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
 D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
 D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
-D arraydemo.adb		20210720140042 e736e13d arraydemo%b
+D arraydemo.adb		20210721160340 6956c6f7 arraydemo%b
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
 D system.ads		20210520051136 2ffa5114 system%s
@@ -57,22 +57,35 @@ X 1 ada.ads
 16K9*Ada 20e8 11|1r6 4r24
 X 9 a-textio.ads
 58K13*Text_IO 725e16 11|1w10 4r28
-506U14*Put_Line 11|21s11
+506U14*Put_Line 11|33s11 41s8 47s8 54s8 61s8
 X 11 arraydemo.adb
-3U11*Arraydemo 3b11 25l5 25t14
-4K12 TIO=4:28 21r7
-5E9 Suit 5e67 8r20 21r79
+3U11*Arraydemo 3b11 67l5 67t14
+4K12 TIO=4:28 33r7 41r4 47r4 54r4 61r4
+5E9 Suit 5e67 8r20 33r79 45r7 51r9 58r9 65r7
 5n18 Pass{5E9}
-5n24 Clubs{5E9} 15r26
-5n31 Diamonds{5E9}
-5n41 Hearts{5E9}
-5n49 Spades{5E9}
+5n24 Clubs{5E9} 27r26
+5n31 Diamonds{5E9} 60r52
+5n41 Hearts{5E9} 38r26
+5n49 Spades{5E9} 53r57
 5n57 No_Trumps{5E9}
-6R9 Card 9e14 10r56 11r14
-7i7 Rank_Value{integer} 14m12 18m12 21r56
-8e7 Suit_Value{5E9} 15m12 21r101
-10A9 Card_Deck(6R9)<integer> 12r14
-11r4 My_Card{6R9} 14m4 15m4 17r31 18m4 19r18
-12a4 My_Deck{10A9} 17m4 17r13 19m4 21r45 21r90
-20i8 I{integer} 21r53 21r98
+6R9 Card 9e14 10r56 11r14 14r55 20r51
+7i7 Rank_Value{integer} 26m12 30m12 33r56 43r44 49r41 56r48 63r51
+8e7 Suit_Value{5E9} 27m12 33r101 38m12 45r41 51r40 58r47 65r60
+10A9 Card_Deck(6R9)<integer> 12r14 22r44 60r29 65r44
+11r4 My_Card{6R9} 26m4 27m4 29r31 30m4 31r18 36r29 38m4 39r47
+12a4 My_Deck{10A9} 29m4 29r13 31m4 33r45 33r90 36m4 36r12
+14A9 Any_Size_Deck(6R9)<integer> 16r29 18r20
+16A12 Pinochle_Deck{14A9}<integer> 17r23
+17a4 My_Pinochle_Deck{16A12} 18r37 39m4 39r21 43r22 45r19 46r23
+18a4 My_Other_Deck{16A12} 46m6 49r22 51r21
+19E9 Players 19e46 20r30 22r32
+19n21 North{19E9} 53r19 56r37 58r36 60r21 63r39 65r36
+19n28 East{19E9}
+19n34 South{19E9}
+19n41 West{19E9}
+20A9 Four_Hands(6R9)<19E9><integer> 21r20
+21a4 My_Four_Hands{20A9} 53m4 53r26 56r22 58r21
+22A9 Bridge_Hands(10A9)<19E9> 23r22
+23a4 My_Bridge_Hands{22A9} 60m4 63r22 65r19
+32i8 I{integer} 33r53 33r98
 
